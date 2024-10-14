@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.logo img{
+    max-width: 255px; /* logo size */
+    margin-bottom: 10px;
+    border-radius: 0.5rem;
+
+}
+h1 {
+    font-family: 'Khmer Os Muol Light';
+    font-size: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Ensure inputs stack vertically */
+}
+
+input {
+    width: 250px;
+    font-size: 15px;
+    font-family: 'Khmer OS Battambang';
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+}
+input[type="text"]:hover {
+    background-color: #ecdeeb;
+    box-shadow: 0px 0px 5px 5px rgb(125, 125, 235);
+    border-radius: none;
+}
+
+button {
+    font-family: 'Khmer Os Muol Light';
+    font-size: 15px;
+    background-color: aqua;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(201, 196, 231);
+    background-color: #4f08f4;
+    box-shadow: 0px 0px 6px 6px rgb(182, 8, 240);
+    border-radius: none;
+    color:rgb(240, 240, 246);/*text color*/
+}
+
+h2 {
+    font-size: 15px;
+    font-family: 'Khmer Os Muol Light';
+    text-align: left;
+    margin-top: 5px;
+}
+.contact-me { 
+    font-size: 13px;
+    font-family: 'Khmer OS Battambang';
+    text-align: right;
+    margin-top: 5px;
+    color:rgb(9, 9, 113);
+}
